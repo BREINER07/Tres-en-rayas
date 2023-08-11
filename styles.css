@@ -1,0 +1,35 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 100px auto;
+    width: 320px;
+    border-style: groove; 
+    border-color:aqua;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: blueviolet ;
+    
+    
+}
+h1{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    color: aqua;
+    width: 100px;
+    height: 100px;
+    background-color: #000550ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    cursor: pointer;
+    border-style: groove;
+    border-color: aqua;
+}
