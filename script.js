@@ -13,7 +13,7 @@ function handleCellClick(event) {
         cell.classList.add(currentPlayer);
         
         if (checkWinner(currentPlayer)) {
-            alert(`${currentPlayer} Gano!`);
+            swal(`${currentPlayer} Gano!`,"EXITO","success");
             resetBoard();
             return;
         }
@@ -41,3 +41,4 @@ function resetBoard() {
     });
     currentPlayer = 'X';
 }
+
